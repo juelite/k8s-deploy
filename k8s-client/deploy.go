@@ -15,7 +15,7 @@ var (
 	err error
 )
 
-const k8s_api = "http://k8s-api.mifengkong.cn"
+const k8s_api = "http://k8s.****.com"
 
 func init() {
 	//var kubeconfig *string
