@@ -1,5 +1,11 @@
 ### k8s部署封装
 
+#### 配置k8s api地址
+```
+    k8s-clinet/deploay.go
+    const k8s_api = "http://k8s.****.com" //k8s api地址
+```
+
 #### 创建项目
 ```bash
     curl 127.0.0.1:1711/create?name=**&app=**&image=**&pods=**&port=**
