@@ -110,7 +110,7 @@ func Create(name, app, image string, pods, port int32) error {
 						{
 							IP: "10.0.100.231",
 							Hostnames:[]string{
-								"jieba-api.mifengkong.cn",
+								"jieba-api.abc.cn",
 							},
 						},
 						{
