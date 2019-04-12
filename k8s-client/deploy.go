@@ -52,7 +52,7 @@ func Create(name, app, image string, pods, port int32) error {
 				Spec: apiv1.PodSpec{
 					ImagePullSecrets: []apiv1.LocalObjectReference{
 						{
-							Name: "mifengkong",
+							Name: "Test",
 						},
 					},
 					HostAliases: []apiv1.HostAlias{
